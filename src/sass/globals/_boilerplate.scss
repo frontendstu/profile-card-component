@@ -2,6 +2,8 @@
 @use '../abstracts/variables' as var;
 
 body {
+  display: grid;
+  place-items: center;
   color: var.$copy-clr;
   line-height: var.$copy-leading;
   font: var.$copy-font;
