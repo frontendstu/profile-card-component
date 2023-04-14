@@ -66,6 +66,8 @@ $card-max-width-lg: func.getRem(350);
 $card-shadow: 0 4px 4px 0 hsla(100, 0%, 0%, 0.25);
 $card-radius: 15px;
 $card-bg: $clr-neutral-100;
+$card-hr-margin-block: func.getRem(24);
+$card-hr-border: 1px solid $clr-neutral-200;
 
 // --- Card Title
 $card-title-clr: $clr-neutral-900;
