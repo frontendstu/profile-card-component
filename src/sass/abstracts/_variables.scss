@@ -24,6 +24,10 @@ $clr-pri-500: hsl(185, 75%, 39%);
 $fw-regular: 400;
 $fw-bold: 700;
 
+$fs-100: func.getRem(10);
+$fs-200: func.getRem(14);
+$fs-400: func.getRem(18);
+
 // Remove any font families that are not in use. You will need to keep
 // $ff-pri or else you will run into errors.
 $ff-pri: null;
