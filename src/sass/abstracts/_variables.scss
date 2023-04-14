@@ -12,8 +12,6 @@ $brk-dwn-lg: func.getEm(1279.98);
 $brk-dwn-xl: func.getEm(1439.98);
 
 // ---------- COLOURS
-
-// Remove any colours that are not in use
 $clr-neutral-100: hsl(0, 100%, 100%);
 $clr-neutral-200: hsl(228, 9%, 92%);
 $clr-neutral-300: hsl(0, 0%, 59%);
@@ -23,17 +21,8 @@ $clr-neutral-900: hsl(229, 23%, 23%);
 $clr-pri-500: hsl(185, 75%, 39%);
 
 // ---------- TYPOGRAPHY
-
-// Remove any font weights that are not in use
-$fw-thin: 100;
-$fw-extralight: 200;
-$fw-light: 300;
 $fw-regular: 400;
-$fw-medium: 500;
-$fw-semibold: 600;
 $fw-bold: 700;
-$fw-extrabold: 800;
-$fw-black: 900;
 
 // Remove any font families that are not in use. You will need to keep
 // $ff-pri or else you will run into errors.
