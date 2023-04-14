@@ -39,6 +39,20 @@
   text-align: center;
 }
 
+// Profile Details
+.profile-details .card-title {
+  margin-top: var.$profile-details-title-marg-top;
+
+  small {
+    margin-left: var.$profile-details-title-sml-marg-left;
+  }
+}
+
+.profile-details .card-heading {
+  margin-top: var.$profile-details-heading-marg-top;
+}
+
+// Profile Image
 .profile-img {
   img {
     transform: translateY(-50%);
