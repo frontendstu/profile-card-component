@@ -1,0 +1,7 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mixin;
+
+.wrapper {
+  max-width: var.$wrapper-max-width;
+  margin-inline: auto;
+}

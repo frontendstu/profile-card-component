@@ -1,0 +1,82 @@
+@use 'functions' as func;
+
+// ---------- BREAKPOINTS
+$brk-sm: func.getEm(640);
+$brk-md: func.getEm(1024);
+$brk-lg: func.getEm(1280);
+$brk-xl: func.getEm(1440);
+
+$brk-dwn-sm: func.getEm(639.98);
+$brk-dwn-md: func.getEm(1023.98);
+$brk-dwn-lg: func.getEm(1279.98);
+$brk-dwn-xl: func.getEm(1439.98);
+
+// ---------- COLOURS
+
+// Remove any colours that are not in use
+$clr-neutral-100: null;
+$clr-neutral-200: null;
+$clr-neutral-300: null;
+$clr-neutral-400: null;
+$clr-neutral-500: null;
+$clr-neutral-600: null;
+$clr-neutral-700: null;
+$clr-neutral-800: null;
+$clr-neutral-900: null;
+
+$clr-primary-100: null;
+$clr-primary-200: null;
+$clr-primary-300: null;
+$clr-primary-400: null;
+$clr-primary-500: null;
+$clr-primary-600: null;
+$clr-primary-700: null;
+$clr-primary-800: null;
+$clr-primary-900: null;
+
+// ---------- TYPOGRAPHY
+
+// Remove any font weights that are not in use
+$fw-thin: 100;
+$fw-extralight: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+// Remove any font families that are not in use. You will need to keep
+// $ff-pri or else you will run into errors.
+$ff-pri: null;
+$ff-sec: null;
+
+// ----- Copy
+$copy-clr: null;
+$copy-leading: null;
+$copy-fw: null;
+$copy-fs: null;
+$copy-ff: $ff-pri;
+
+$copy-font: $copy-fw $copy-fs $copy-ff;
+
+// ----- Title
+$title-pri-fw: $fw-bold;
+$title-pri-ff: $ff-pri;
+
+$title-sec-fw: null;
+$title-sec-ff: null;
+
+// ---------- LINKS
+$link-trans: 150ms ease-in-out;
+$link-trans-prop: null;
+$link-clr: null;
+$link-clr-active: null;
+$link-decoration: none;
+$link-decoration-active: none;
+
+// ---------- LAYOUT
+
+// ----- Wrapper
+$wrapper-max-width: func.getRem(375);
