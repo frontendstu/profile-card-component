@@ -1,2 +1,14 @@
 @use '../abstracts/mixins' as mixin;
 @use '../abstracts/variables' as var;
+
+.card {
+  max-width: var.$card-max-width;
+  background-color: var.$card-bg;
+  box-shadow: var.$card-shadow;
+  border-radius: var.$card-radius;
+  overflow: hidden;
+
+  @include mixin.breakpoint(lg) {
+    max-width: var.$card-max-width-lg;
+  }
+}
