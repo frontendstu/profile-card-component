@@ -38,3 +38,12 @@
 .profile-card {
   text-align: center;
 }
+
+.profile-img {
+  img {
+    transform: translateY(-50%);
+    border-radius: var.$profile-img-radius;
+    border: var.$profile-img-border;
+    margin-inline: auto;
+  }
+}
