@@ -18,6 +18,11 @@
     }
   }
 
+  .card-heading {
+    color: var.$card-heading-clr;
+    font: var.$card-heading-font;
+  }
+
   @include mixin.breakpoint(lg) {
     max-width: var.$card-max-width-lg;
   }
