@@ -61,3 +61,28 @@
     margin-inline: auto;
   }
 }
+
+// Profile Stats
+.profile-stats {
+  padding-bottom: var.$profile-stats-padd-bottom;
+  color: var.$profile-stats-clr;
+
+  li {
+    display: inline-block;
+    margin-right: var.$profile-stats-marg-right;
+    font-weight: var.$profile-stats-fw;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    span {
+      display: block;
+      margin-top: var.$profile-stats-span-marg-top;
+      color: var.$profile-stats-span-clr;
+      letter-spacing: var.$profile-stats-span-tracking;
+      font-weight: var.$profile-stats-span-fw;
+      font-size: var.$profile-stats-span-fs;
+    }
+  }
+}
