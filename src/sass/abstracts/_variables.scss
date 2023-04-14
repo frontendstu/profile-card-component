@@ -32,10 +32,10 @@ $ff-pri: 'Kumbh Sans', sans-serif;
 $ff-sec: null;
 
 // ----- Copy
-$copy-clr: null;
+$copy-clr: $clr-neutral-500;
 $copy-leading: null;
-$copy-fw: null;
-$copy-fs: null;
+$copy-fw: $fw-regular;
+$copy-fs: $fs-400;
 $copy-ff: $ff-pri;
 
 $copy-font: $copy-fw $copy-fs $copy-ff;
