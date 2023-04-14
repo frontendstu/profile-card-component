@@ -8,6 +8,12 @@
   border-radius: var.$card-radius;
   overflow: hidden;
 
+  hr {
+    margin-block: var.$card-hr-margin-block;
+    border: 0;
+    border-top: var.$card-hr-border;
+  }
+
   .card-title {
     color: var.$card-title-clr;
     font: var.$card-title-font;
