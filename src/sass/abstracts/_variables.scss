@@ -28,9 +28,7 @@ $fs-100: func.getRem(10);
 $fs-200: func.getRem(14);
 $fs-400: func.getRem(18);
 
-// Remove any font families that are not in use. You will need to keep
-// $ff-pri or else you will run into errors.
-$ff-pri: null;
+$ff-pri: 'Kumbh Sans', sans-serif;
 $ff-sec: null;
 
 // ----- Copy
