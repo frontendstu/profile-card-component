@@ -8,6 +8,16 @@
   border-radius: var.$card-radius;
   overflow: hidden;
 
+  .card-title {
+    color: var.$card-title-clr;
+    font: var.$card-title-font;
+
+    small {
+      color: var.$card-title-sml-clr;
+      font-weight: var.$card-title-sml-fw;
+    }
+  }
+
   @include mixin.breakpoint(lg) {
     max-width: var.$card-max-width-lg;
   }
