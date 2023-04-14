@@ -14,25 +14,13 @@ $brk-dwn-xl: func.getEm(1439.98);
 // ---------- COLOURS
 
 // Remove any colours that are not in use
-$clr-neutral-100: null;
-$clr-neutral-200: null;
-$clr-neutral-300: null;
-$clr-neutral-400: null;
-$clr-neutral-500: null;
-$clr-neutral-600: null;
-$clr-neutral-700: null;
-$clr-neutral-800: null;
-$clr-neutral-900: null;
+$clr-neutral-100: hsl(0, 100%, 100%);
+$clr-neutral-200: hsl(228, 9%, 92%);
+$clr-neutral-300: hsl(0, 0%, 59%);
+$clr-neutral-500: hsl(227, 10%, 46%);
+$clr-neutral-900: hsl(229, 23%, 23%);
 
-$clr-primary-100: null;
-$clr-primary-200: null;
-$clr-primary-300: null;
-$clr-primary-400: null;
-$clr-primary-500: null;
-$clr-primary-600: null;
-$clr-primary-700: null;
-$clr-primary-800: null;
-$clr-primary-900: null;
+$clr-pri-500: hsl(185, 75%, 39%);
 
 // ---------- TYPOGRAPHY
 
