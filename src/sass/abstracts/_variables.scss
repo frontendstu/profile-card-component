@@ -90,6 +90,18 @@ $profile-details-heading-marg-top: 0.5rem;
 $profile-img-radius: 33vw;
 $profile-img-border: 5px solid $clr-neutral-100;
 
+// --- Profile Stats
+$profile-stats-padd-bottom: 1.5rem;
+$profile-stats-marg-right: 2.375rem;
+$profile-stats-clr: $clr-neutral-900;
+$profile-stats-fw: $fw-bold;
+
+$profile-stats-span-marg-top: func.getRem(5);
+$profile-stats-span-clr: $clr-neutral-500;
+$profile-stats-span-tracking: 1.5px;
+$profile-stats-span-fw: $fw-regular;
+$profile-stats-span-fs: $fs-100;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
