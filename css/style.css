@@ -59,7 +59,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   color: hsl(227, 10%, 46%);
   font: 400 1.125rem "Kumbh Sans", sans-serif;
-  background-image: url("../../assets/images/bg-pattern-top.svg"), url("../../assets/images/bg-pattern-bottom.svg");
+  background-image: url("../assets/images/bg-pattern-top.svg"), url("../assets/images/bg-pattern-bottom.svg");
   background-position: right 45vw bottom 45vh, 45vw 45vh;
   background-repeat: no-repeat;
 }
