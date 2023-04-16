@@ -10,8 +10,8 @@ body {
   font: var.$copy-font;
 
   // Add background patterns
-  background-image: url('../../assets/images/bg-pattern-top.svg'),
-    url('../../assets/images/bg-pattern-bottom.svg');
+  background-image: url('../assets/images/bg-pattern-top.svg'),
+    url('../assets/images/bg-pattern-bottom.svg');
   background-position: var.$body-bg-img-pos;
   background-repeat: no-repeat;
 }
