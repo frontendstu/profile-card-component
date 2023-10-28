@@ -24,4 +24,12 @@
   --body-bg-img: url('../assets/images/bg-pattern-top.svg'),
     url('../assets/images/bg-pattern-top.svg');
   --body-bg-img-pos: right 45vw bottom 45vh, 45vw 45vh;
+
+  // ---------- LINKS
+  --link-decoration: none;
+  --link-decoration-active: none;
+  --link-fs: var(--fs-200);
+  --link-color: var(--color-neutral-100);
+  --link-color-active: hsla(0, 0%, 100%, 0.5);
+  --link-transition: 150ms ease-in-out color;
 }
