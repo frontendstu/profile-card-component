@@ -16,4 +16,12 @@
   --fs-300: 1.125rem; // 18px
 
   --ff-primary: 'Kumbh Sans', sans-serif;
+
+  // ---------- BODY
+  --body-font: var(--fw-regular) var(--fs-300) var(--ff-primary);
+  --body-color: var(--color-neutral-800);
+  --body-bg: var(--color-primary);
+  --body-bg-img: url('../assets/images/bg-pattern-top.svg'),
+    url('../assets/images/bg-pattern-top.svg');
+  --body-bg-img-pos: right 45vw bottom 45vh, 45vw 45vh;
 }
