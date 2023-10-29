@@ -20,4 +20,10 @@
       border-radius: var(--profile-card-img-radius);
     }
   }
+
+  &__container {
+    text-align: center;
+    margin-top: var(--profile-card-container-margin-top);
+    padding-bottom: var(--profile-card-container-padding-bottom);
+  }
 }
