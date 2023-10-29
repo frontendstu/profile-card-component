@@ -7,6 +7,8 @@ body {
   background-image: var(--body-bg-img);
   background-position: var(--body-bg-img-pos);
   background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
 }
 
 a {
