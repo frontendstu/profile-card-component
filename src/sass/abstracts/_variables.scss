@@ -28,6 +28,7 @@
   // ---------- LINKS
   --link-decoration: none;
   --link-decoration-active: none;
+  --link-fw: var(--fw-bold);
   --link-color: var(--color-neutral-100);
   --link-color-active: hsla(0, 0%, 100%, 0.5);
   --link-transition: 150ms ease-in-out color;
