@@ -25,5 +25,15 @@
     text-align: center;
     margin-top: var(--profile-card-container-margin-top);
     padding-bottom: var(--profile-card-container-padding-bottom);
+
+    &-user {
+      font-weight: var(--profile-card-user-fw);
+
+      span {
+        font-weight: var(--profile-card-user-span-fw);
+        color: var(--profile-card-user-span-color);
+        margin-left: var(--profile-card-user-margin-left);
+      }
+    }
   }
 }
