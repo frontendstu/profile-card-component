@@ -10,4 +10,14 @@
   flex-direction: column;
   width: var(--profile-card-width);
   overflow: hidden;
+
+  &__profile-img {
+    border: var(--profile-card-img-border);
+    border-radius: var(--profile-card-img-radius);
+    transform: var(--profile-card-transform);
+
+    img {
+      border-radius: var(--profile-card-img-radius);
+    }
+  }
 }
