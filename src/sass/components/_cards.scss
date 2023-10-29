@@ -1,1 +1,12 @@
 @use '../abstracts' as abstract;
+
+.profile-card {
+  @include abstract.flex;
+
+  background-color: var(--profile-card-bg);
+  border-radius: var(--profile-card-radius);
+  margin-inline: auto;
+  flex-direction: column;
+  width: var(--profile-card-width);
+  overflow: hidden;
+}
