@@ -40,6 +40,10 @@
   --profile-card-width: 20.375rem;
   --profile-card-box-shadow: 0px 50px 100px -20px hsla(196, 84%, 20%, 0.5);
 
+  @media (min-width: 48em) {
+    --profile-card-width: 21.875rem;
+  }
+
   // -------- Profile Card Profile Image
   --profile-card-img-border: 5px solid var(--color-neutral-100);
   --profile-card-img-radius: 99vw;
@@ -54,8 +58,4 @@
   --profile-card-user-span-fw: var(--fw-regular);
   --profile-card-user-span-color: var(--color-neutral-500);
   --profile-card-user-margin-left: 0.5625rem;
-
-  @media (min-width: 48em) {
-    --profile-card-width: 21.875rem;
-  }
 }
