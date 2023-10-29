@@ -31,4 +31,15 @@
   --link-color: var(--color-neutral-100);
   --link-color-active: hsla(0, 0%, 100%, 0.5);
   --link-transition: 150ms ease-in-out color;
+
+  // ---------- COMPONENTS
+
+  // -------- Profile Card
+  --profile-card-bg: var(--color-neutral-100);
+  --profile-card-radius: 15px;
+  --profile-card-width: 20.375rem;
+
+  @media (min-width: 48em) {
+    --profile-card-width: 21.875rem;
+  }
 }
