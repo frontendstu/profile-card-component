@@ -58,4 +58,15 @@
   --profile-card-user-span-fw: var(--fw-regular);
   --profile-card-user-span-color: var(--color-neutral-500);
   --profile-card-user-margin-left: 0.5625rem;
+
+  // ------ Profile Card User Stats
+  --profile-card-user-stats-fw: var(--fw-bold);
+  --profile-card-user-stats-border-top: 1px solid var(--color-neutral-150);
+  --profile-card-user-stats-padding-block: 1.5rem;
+  --profile-card-user-stats-col-gap: 2.875rem;
+
+  --profile-card-user-stats-span-fw: var(--fw-regular);
+  --profile-card-user-stats-span-fs: var(--fs-100);
+  --profile-card-user-stats-span-tracking: 1.5px;
+  --profile-card-user-stats-span-color: var(--color-neutral-500);
 }
