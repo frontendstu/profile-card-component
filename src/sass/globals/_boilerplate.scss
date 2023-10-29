@@ -1,1 +1,10 @@
 @use '../abstracts' as abstract;
+
+body {
+  font: var(--body-font);
+  color: var(--body-color);
+  background-color: var(--body-bg);
+  background-image: var(--body-bg-img);
+  background-position: var(--body-bg-img-pos);
+  background-repeat: no-repeat;
+}
