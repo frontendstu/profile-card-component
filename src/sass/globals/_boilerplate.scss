@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: var(--link-decoration);
+  font-weight: var(--link-fw);
   color: var(--link-color);
   transition: var(--link-transition);
 
