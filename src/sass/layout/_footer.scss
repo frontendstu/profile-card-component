@@ -1,1 +1,7 @@
 @use '../abstracts' as abstract;
+
+.attribution {
+  font-size: var(--attribution-fs);
+  color: var(--attribution-color);
+  margin-top: var(--attribution-margin-top);
+}
