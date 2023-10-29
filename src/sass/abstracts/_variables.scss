@@ -45,6 +45,16 @@
   --profile-card-img-radius: 99vw;
   --profile-card-transform: translateY(-3rem);
 
+  // -------- Profile Card Container
+  --profile-card-container-margin-top: -2rem;
+  --profile-card-container-padding-bottom: 1.5625rem;
+
+  // ------ Profile Card User
+  --profile-card-user-fw: var(--fw-bold);
+  --profile-card-user-span-fw: var(--fw-regular);
+  --profile-card-user-span-color: var(--color-neutral-500);
+  --profile-card-user-margin-left: 0.5625rem;
+
   @media (min-width: 48em) {
     --profile-card-width: 21.875rem;
   }
