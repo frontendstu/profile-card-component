@@ -69,4 +69,13 @@
   --profile-card-user-stats-span-fs: var(--fs-100);
   --profile-card-user-stats-span-tracking: 1.5px;
   --profile-card-user-stats-span-color: var(--color-neutral-500);
+
+  // ---------- LAYOUT
+
+  // -------- Footer
+
+  // ------ Attribution
+  --attribution-fs: var(--fs-200);
+  --attribution-color: hsla(0, 0%, 100%, 0.7);
+  --attribution-margin-top: 2rem;
 }
