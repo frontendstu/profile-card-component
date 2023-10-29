@@ -36,4 +36,23 @@
       }
     }
   }
+
+  &__stats {
+    @include abstract.flex;
+
+    text-align: center;
+    font-weight: var(--profile-card-user-stats-fw);
+    border-top: var(--profile-card-user-stats-border-top);
+    padding-block: var(--profile-card-user-stats-padding-block);
+    flex-direction: row;
+    column-gap: var(--profile-card-user-stats-col-gap);
+    width: 100%;
+
+    span {
+      font-weight: var(--profile-card-user-stats-span-fw);
+      font-size: var(--profile-card-user-stats-span-fs);
+      letter-spacing: var(--profile-card-user-stats-span-tracking);
+      color: var(--profile-card-user-stats-span-color);
+    }
+  }
 }
